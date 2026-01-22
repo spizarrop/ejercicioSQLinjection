@@ -14,4 +14,4 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON asociaciondle.* TO 'nuevo_usuario'@'loca
 REVOKE SELECT, INSERT, UPDATE, DELETE ON asociaciondle.* FROM 'nuevo_usuario'@'localhost';
 
 /* ADMINISTRADOR DE LA APP */
-GRANT CREATE, SELECT, INSERT, UPDATE, DELETE ON asociaciondle.* TO 'nuevo_admin'@'localhost';
+GRANT ALL PRIVILEGES ON asociaciondle.* TO 'nuevo_admin'@'localhost';
